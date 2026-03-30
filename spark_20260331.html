@@ -84,8 +84,9 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
 
 <div class="hero">
   <div class="hero-badge">🧠 뉴스 기반 리포트 주제 탐색</div>
-  <h1>아이디어 스파크</h1>
-  <p class="hero-sub">Claude API 호출에 실패했습니다.</p>
+  <h1>오늘의 뉴스에서 발견한
+리포트 아이디어 7가지</h1>
+  <p class="hero-sub">한국+글로벌 뉴스 64건을 클러스터링하고 중동 지정학 리스크가 한국 금융시장에 미치는 파급효과를 분석했습니다.</p>
 </div>
 
 <!-- ━━━ MIND MAP ━━━ -->
@@ -96,7 +97,61 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
     <div class="map-center">
       <div class="map-hub">📅 2026.03.31<br>뉴스 클러스터</div>
       <div class="map-branches">
-        
+        <div class="map-branch">
+  <div class="map-node" style="background:var(--red-d)">
+    <div class="map-node-label" style="color:var(--red)">⛽ 에너지/지정학</div>
+    <div class="map-node-count">18건</div>
+  </div>
+  <div class="map-line" style="background:var(--red)"></div>
+  <div class="map-sub"><div class="map-leaf">미-이란 군사작전 임박</div>
+<div class="map-leaf">국제유가 급등(WTI 103달러)</div>
+<div class="map-leaf">호르무즈 해협 통제권 갈등</div>
+<div class="map-leaf">러시아 쿠바 유조선 도착</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--blue-d)">
+    <div class="map-node-label" style="color:var(--blue)">🏦 금융/경제</div>
+    <div class="map-node-count">14건</div>
+  </div>
+  <div class="map-line" style="background:var(--blue)"></div>
+  <div class="map-sub"><div class="map-leaf">원달러 환율 1520원 돌파</div>
+<div class="map-leaf">코스피 급락에 정부 비상대응</div>
+<div class="map-leaf">비트코인 롱포지션 3년 최고치</div>
+<div class="map-leaf">일본은행 엔화 변동 경계</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--green-d)">
+    <div class="map-node-label" style="color:var(--green)">🤖 기술/AI</div>
+    <div class="map-node-count">12건</div>
+  </div>
+  <div class="map-line" style="background:var(--green)"></div>
+  <div class="map-sub"><div class="map-leaf">파수 26년 만에 'AI' 사명 변경</div>
+<div class="map-leaf">갤럭시S26 스냅드래곤 vs 엑시노스</div>
+<div class="map-leaf">정부 설치형 보안SW 퇴출 지시</div>
+<div class="map-leaf">중국 챗봇 업계 경쟁격화</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--orange-d)">
+    <div class="map-node-label" style="color:var(--orange)">🏛️ 정치/정책</div>
+    <div class="map-node-count">15건</div>
+  </div>
+  <div class="map-line" style="background:var(--orange)"></div>
+  <div class="map-sub"><div class="map-leaf">여야 추경안 4월 10일 처리 합의</div>
+<div class="map-leaf">시진핑 대만 국민당 주석 초청</div>
+<div class="map-leaf">EU 탄소국경조정 대응 지원</div>
+<div class="map-leaf">개헌 논의 국민의힘 참여 관건</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--pink-d)">
+    <div class="map-node-label" style="color:var(--pink)">🏭 산업/사회</div>
+    <div class="map-node-count">19건</div>
+  </div>
+  <div class="map-line" style="background:var(--pink)"></div>
+  <div class="map-sub"><div class="map-leaf">반도체 가격 전방위 상승</div>
+<div class="map-leaf">삼천당제약 미국 비만약 계약</div>
+<div class="map-leaf">건보료 추가 징수 우려</div>
+<div class="map-leaf">자율주행버스 심야 운행</div></div>
+</div>
       </div>
     </div>
   </div>
@@ -108,7 +163,21 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
 <div class="section">
   <div class="stitle">🔗 교차점에서 발견한 연결고리</div>
   <div class="sdesc">서로 다른 분야의 뉴스가 만나는 지점이에요</div>
-  
+  <div class="cross-card">
+  <div class="cross-eq"><span class="cross-tag" style="background:var(--red-d);color:var(--red)">지정학</span><span class="cross-plus">+</span><span class="cross-tag" style="background:var(--blue-d);color:var(--blue)">금융</span><span class="cross-arrow">→</span></div>
+  <div class="cross-result">중동발 에너지 위기가 한국 금융시장 직격탄</div>
+  <div class="cross-desc">유가급등→환율상승→증시급락의 연쇄작용으로 17년 만에 환율 1520원 돌파했어요.</div>
+</div>
+<div class="cross-card">
+  <div class="cross-eq"><span class="cross-tag" style="background:var(--orange-d);color:var(--orange)">정책</span><span class="cross-plus">+</span><span class="cross-tag" style="background:var(--pink-d);color:var(--pink)">산업</span><span class="cross-arrow">→</span></div>
+  <div class="cross-result">에너지 위기 대응 위한 산업정책 총동원</div>
+  <div class="cross-desc">정부가 유류가격 급등 주유소 단속과 출퇴근 시간 분산까지 검토하고 있습니다.</div>
+</div>
+<div class="cross-card">
+  <div class="cross-eq"><span class="cross-tag" style="background:var(--green-d);color:var(--green)">기술</span><span class="cross-plus">+</span><span class="cross-tag" style="background:var(--orange-d);color:var(--orange)">정책</span><span class="cross-arrow">→</span></div>
+  <div class="cross-result">금융권 보안SW 대전환이 디지털 정책 신호탄</div>
+  <div class="cross-desc">설치형 보안SW 퇴출 지시가 클라우드 전환과 AI 도입을 가속화하고 있어요.</div>
+</div>
 </div>
 
 <div class="divider" style="margin-top:32px"></div>
@@ -117,14 +186,137 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
 <div class="section">
   <div class="stitle">💡 리포트 주제 후보</div>
   <div class="sdesc">각 아이디어는 뉴스 근거 + 접근 각도가 포함되어 있습니다</div>
-  
+  <div class="spark" style="border-left-color:var(--red)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--red-d)">⛽</div>
+    <div class="spark-meta">
+      <div class="spark-title">1520원 환율쇼크: 중동발 완벽폭풍의 해부</div>
+      <span class="spark-type" style="background:var(--red-d);color:var(--red)">매크로분석</span>
+    </div>
+  </div>
+  <div class="spark-body">17년 만에 환율 1520원을 돌파한 배경을 중동 지정학 리스크부터 국내 금융시장 파급효과까지 종합적으로 분석합니다. 유가급등이 어떻게 환율과 증시를 동시에 흔들고 있는지 데이터로 추적해보겠습니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--red)"></div><span>환율 1520원 돌파·코스피 급락…정부, 비상 대응 총력전</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--red)"></div><span>국제유가 급등…WTI 103달러·브렌트 116달러 돌파</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>2008년 금융위기와 현재 상황 비교분석(환율/유가/증시 연동성)</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>호르무즈 해협 통행료가 글로벌 에너지 공급망에 미치는 영향 시뮬레이션</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>한국 수입물가→소비자물가 전이경로 및 시차분석</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--green)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--green-d)">🤖</div>
+    <div class="spark-meta">
+      <div class="spark-title">K-반도체 슈퍼사이클: 메모리를 넘어 비메모리까지</div>
+      <span class="spark-type" style="background:var(--green-d);color:var(--green)">산업트렌드</span>
+    </div>
+  </div>
+  <div class="spark-body">메모리와 비메모리 반도체 가격이 동시에 상승하는 이례적 현상을 분석합니다. AI 수요와 지정학적 공급망 재편이 만든 새로운 반도체 사이클의 지속성과 투자 기회를 진단해보겠습니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--green)"></div><span>메모리 넘어 비메모리까지… 반도체 가격 전방위로 오른다</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--green)"></div><span>갤럭시 S26 '전성비' 격차, "스냅드래곤이 엑시노스보다 28% 더 버텼다"</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>글로벌 반도체 재고순환 사이클과 현재 위치 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>AI칩 수요증가가 레거시 반도체 가격에 미치는 스필오버 효과</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>삼성/SK하이닉스 vs 대만/중국 반도체 기업 경쟁력 비교</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--orange)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--orange-d)">🏛️</div>
+    <div class="spark-meta">
+      <div class="spark-title">추경 vs 인플레이션: 정책딜레마의 경제학</div>
+      <span class="spark-type" style="background:var(--orange-d);color:var(--orange)">정책분석</span>
+    </div>
+  </div>
+  <div class="spark-body">고유가로 인플레이션 압력이 높아지는 상황에서 4월 추경 처리가 갖는 의미를 분석합니다. 재정확장과 물가안정 사이의 정책 트레이드오프를 해외 사례와 함께 살펴보겠습니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--orange)"></div><span>여야, 4월10일까지 추경안 합의 처리하기로</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--orange)"></div><span>강훈식 "기업들, 출퇴근 시간 분산 검토해 달라"</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>유가상승기 재정정책 효과성 분석(1979년, 2008년 사례)</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>한국의 재정승수와 인플레이션 임계점 추정</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>에너지 보조금 vs 현금지급의 경제적 효율성 비교</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--green)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--green-d)">🤖</div>
+    <div class="spark-meta">
+      <div class="spark-title">디지털 금융의 보안 패러다임 대전환</div>
+      <span class="spark-type" style="background:var(--green-d);color:var(--green)">기술정책</span>
+    </div>
+  </div>
+  <div class="spark-body">정부의 설치형 보안SW 퇴출 지시가 금융권에 미치는 파급효과를 분석합니다. 클라우드 네이티브 보안 체계로의 전환이 가져올 비용과 효과, 그리고 새로운 투자 기회를 진단해보겠습니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--green)"></div><span>[단독] "설치형 보안 SW 다 빼!"... 정부 지시에 여의도 금융권 '패닉'</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--green)"></div><span>파수, 26년 만에 '파수AI'로 간판 바꿔</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>금융권 보안SW 교체비용 및 투자규모 추산</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>클라우드 vs 온프레미스 보안 아키텍처 비용효과 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>제로트러스트 모델 도입에 따른 보안업계 밸류체인 변화</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--pink)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--pink-d)">🏭</div>
+    <div class="spark-meta">
+      <div class="spark-title">바이오헬스케어 M&A 르네상스: 글로벌 진출의 신호탄</div>
+      <span class="spark-type" style="background:var(--pink-d);color:var(--pink)">산업트렌드</span>
+    </div>
+  </div>
+  <div class="spark-body">삼천당제약의 1억달러 미국 제네릭 계약을 시작으로 K-바이오의 글로벌 진출이 가속화되고 있습니다. 비만·당뇨 치료제 시장의 성장성과 한국 제약업체들의 경쟁력을 종합 분석해보겠습니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--pink)"></div><span>[속보] 삼천당제약, 美 비만·당뇨 경구제 제네릭 라이선스 계약 체결 공시…총 1억달러 규모</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>글로벌 GLP-1 제네릭 시장규모 및 성장률 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>한국 제약업체의 FDA 승인 현황 및 파이프라인 경쟁력</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>오젬픽·위고비 특허만료에 따른 제네릭 시장 선점 전략</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--blue)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--blue-d)">🏦</div>
+    <div class="spark-meta">
+      <div class="spark-title">아시아 통화위기 2.0: 엔-원-위안 동조화 현상 분석</div>
+      <span class="spark-type" style="background:var(--blue-d);color:var(--blue)">매크로분석</span>
+    </div>
+  </div>
+  <div class="spark-body">일본은행의 엔화 변동 경계 발언과 원달러 환율 급등이 보여주는 아시아 통화들의 동조화 현상을 분석합니다. 미국의 중동 개입이 아시아 통화정책에 미치는 구조적 영향을 진단해보겠습니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--blue)"></div><span>Bank of Japan chief signals vigilance to yen moves, impact on economy By Reuters</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--blue)"></div><span>환율 1520원 돌파·코스피 급락…정부, 비상 대응 총력전</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>아시아 주요 통화의 달러 대비 상관관계 분석(2020-2026)</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>중동 지정학 리스크가 아시아 외환보유액에 미치는 영향</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>한중일 통화스와프 활용 가능성 및 정책공조 시나리오</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--green)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--green-d)">🌱</div>
+    <div class="spark-meta">
+      <div class="spark-title">ESG 규제의 글로벌 스탠다드화: CBAM이 여는 새로운 게임</div>
+      <span class="spark-type" style="background:var(--green-d);color:var(--green)">ESG</span>
+    </div>
+  </div>
+  <div class="spark-body">EU 탄소국경조정제도 확정기간 돌입에 따른 한국 수출기업들의 대응 전략을 분석합니다. 탄소회계 시스템 구축부터 친환경 생산공정 전환까지, ESG가 무역정책이 되는 시대의 생존법을 제시해보겠습니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--green)"></div><span>EU 탄소국경조정제도 대응, 수출기업 1대1 밀착 지원</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>CBAM 적용업종별 한국 수출 영향도 정량 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>EU vs 미국 vs 중국 탄소국경세 정책 비교 및 대응방안</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>탄소회계 인프라 구축비용 및 중소기업 지원방안 효과성</span></div>
+  </div>
+</div>
 </div>
 
 <div class="footer">
   <div class="footer-logo">💡 아이디어 스파크</div>
   <p>
     뉴스 기반 리포트 주제 탐색<br>
-    64건 분석 · 클러스터 5개 · 아이디어 0개<br><br>
+    64건 분석 · 클러스터 5개 · 아이디어 7개<br><br>
     SHINHAN 미래전략연구소 · 매크로금융팀<br>
     Auto-generated · 2026.03.31
   </p>
