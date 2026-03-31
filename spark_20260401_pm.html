@@ -84,8 +84,9 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
 
 <div class="hero">
   <div class="hero-badge">🧠 뉴스 기반 리포트 주제 탐색</div>
-  <h1>아이디어 스파크</h1>
-  <p class="hero-sub">Claude API 호출에 실패했습니다.</p>
+  <h1>오늘의 뉴스에서 발견한
+리포트 아이디어 6가지</h1>
+  <p class="hero-sub">한국 + 글로벌 뉴스 48건을 클러스터링하고 중동 위기와 한국 경제의 연결고리를 분석했어요.</p>
 </div>
 
 <!-- ━━━ MIND MAP ━━━ -->
@@ -96,7 +97,57 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
     <div class="map-center">
       <div class="map-hub">📅 2026.04.01<br>뉴스 클러스터</div>
       <div class="map-branches">
-        
+        <div class="map-branch">
+  <div class="map-node" style="background:var(--red-d)">
+    <div class="map-node-label" style="color:var(--red)">⛽ 에너지/지정학</div>
+    <div class="map-node-count">18건</div>
+  </div>
+  <div class="map-line" style="background:var(--red)"></div>
+  <div class="map-sub"><div class="map-leaf">호르무즈 해협 봉쇄 위기</div>
+<div class="map-leaf">유가 급등과 항공업 비상경영</div>
+<div class="map-leaf">이란-미국 군사 충돌 격화</div>
+<div class="map-leaf">한국 정부 긴급재정명령 검토</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--blue-d)">
+    <div class="map-node-label" style="color:var(--blue)">🏦 금융/경제</div>
+    <div class="map-node-count">8건</div>
+  </div>
+  <div class="map-line" style="background:var(--blue)"></div>
+  <div class="map-sub"><div class="map-leaf">원-달러 환율 1530원 돌파</div>
+<div class="map-leaf">한은 총재 후보 환율 안정 메시지</div>
+<div class="map-leaf">빅테크 1700조 시가총액 급락</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--green-d)">
+    <div class="map-node-label" style="color:var(--green)">🤖 기술/AI</div>
+    <div class="map-node-count">7건</div>
+  </div>
+  <div class="map-line" style="background:var(--green)"></div>
+  <div class="map-sub"><div class="map-leaf">AI 신약개발과 RNA 치료제</div>
+<div class="map-leaf">삼성전자 엑시노스 전력효율 난제</div>
+<div class="map-leaf">테슬라 FSD 무단 활성화 처벌</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--orange-d)">
+    <div class="map-node-label" style="color:var(--orange)">🏛️ 정치/정책</div>
+    <div class="map-node-count">9건</div>
+  </div>
+  <div class="map-line" style="background:var(--orange)"></div>
+  <div class="map-sub"><div class="map-leaf">노동절 공휴일 법안 통과</div>
+<div class="map-leaf">개헌 논의와 5.18 헌법 명시</div>
+<div class="map-leaf">국민의힘 공천 파열음</div></div>
+</div>
+<div class="map-branch">
+  <div class="map-node" style="background:var(--pink-d)">
+    <div class="map-node-label" style="color:var(--pink)">🏭 산업/사회</div>
+    <div class="map-node-count">6건</div>
+  </div>
+  <div class="map-line" style="background:var(--pink)"></div>
+  <div class="map-sub"><div class="map-leaf">2차전지 ESS 모멘텀</div>
+<div class="map-leaf">알루미늄 가격 급등</div>
+<div class="map-leaf">홈플러스 매장 구조조정</div></div>
+</div>
       </div>
     </div>
   </div>
@@ -108,7 +159,21 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
 <div class="section">
   <div class="stitle">🔗 교차점에서 발견한 연결고리</div>
   <div class="sdesc">서로 다른 분야의 뉴스가 만나는 지점이에요</div>
-  
+  <div class="cross-card">
+  <div class="cross-eq"><span class="cross-tag" style="background:var(--red-d);color:var(--red)">에너지위기</span><span class="cross-plus">+</span><span class="cross-tag" style="background:var(--blue-d);color:var(--blue)">환율급등</span><span class="cross-arrow">→</span></div>
+  <div class="cross-result">유가충격이 원화 약세를 가속화</div>
+  <div class="cross-desc">중동 위기로 인한 에너지 수입 부담이 경상수지 악화와 환율 상승을 동반하고 있어요.</div>
+</div>
+<div class="cross-card">
+  <div class="cross-eq"><span class="cross-tag" style="background:var(--orange-d);color:var(--orange)">긴급재정명령</span><span class="cross-plus">+</span><span class="cross-tag" style="background:var(--red-d);color:var(--red)">유류세인하</span><span class="cross-arrow">→</span></div>
+  <div class="cross-result">에너지 위기가 정치적 리스크로 전환</div>
+  <div class="cross-desc">대통령이 긴급재정명령까지 언급하며 중동 위기의 정치적 파급력이 커지고 있습니다.</div>
+</div>
+<div class="cross-card">
+  <div class="cross-eq"><span class="cross-tag" style="background:var(--pink-d);color:var(--pink)">2차전지</span><span class="cross-plus">+</span><span class="cross-tag" style="background:var(--red-d);color:var(--red)">유가급등</span><span class="cross-arrow">→</span></div>
+  <div class="cross-result">에너지 전환 투자 기회로 부상</div>
+  <div class="cross-desc">유가 상승이 ESS와 전기차 배터리 등 에너지 저장 솔루션의 경제성을 높이고 있어요.</div>
+</div>
 </div>
 
 <div class="divider" style="margin-top:32px"></div>
@@ -117,14 +182,121 @@ body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background
 <div class="section">
   <div class="stitle">💡 리포트 주제 후보</div>
   <div class="sdesc">각 아이디어는 뉴스 근거 + 접근 각도가 포함되어 있습니다</div>
-  
+  <div class="spark" style="border-left-color:var(--red)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--red-d)">⛽</div>
+    <div class="spark-meta">
+      <div class="spark-title">호르무즈 위기와 한국경제: 1973년 오일쇼크 재현 시나리오 분석</div>
+      <span class="spark-type" style="background:var(--red-d);color:var(--red)">매크로분석</span>
+    </div>
+  </div>
+  <div class="spark-body">호르무즈 해협 봉쇄 시나리오별로 한국의 에너지 수입비용 증가폭과 GDP 영향을 분석하고, 정부의 긴급재정명령 발동 가능성을 검토합니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--red)"></div><span>트럼프, 동맹국 향해 "호르무즈서 석유 직접 확보하라"</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--red)"></div><span>이 대통령 "에너지 수급 불안 과감히 대응···헌법이 정한 긴급재정명령도 활용"</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>호르무즈 봉쇄 시나리오별 유가 상승폭과 한국 수입비용 시뮬레이션</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>1973년·1979년 오일쇼크 당시 한국 대응책과 현재 비교 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>긴급재정명령 발동 시 국채발행 규모와 재정건전성 영향 추정</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--blue)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--blue-d)">🏦</div>
+    <div class="spark-meta">
+      <div class="spark-title">원달러 1530원 시대: 환율 급등이 바꾸는 한국 산업지도</div>
+      <span class="spark-type" style="background:var(--blue-d);color:var(--blue)">딥다이브</span>
+    </div>
+  </div>
+  <div class="spark-body">환율 1530원 돌파가 수출기업과 수입기업에 미치는 차별적 영향을 분석하고, 항공업계 비상경영이 서비스업 전반에 주는 시사점을 짚어봅니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--blue)"></div><span>원-달러 환율 장중 1530원 돌파…코스피 5052 마감</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--blue)"></div><span>공포의 유류 할증료... 뉴욕 왕복 100만원?</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>환율 1530원 기준 주요 수출기업별 영업이익 민감도 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>항공업계 연료비 상승이 여행업·면세업에 미치는 연쇄효과 추정</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>환율 급등 시 외국인 투자자금 이탈 규모와 주식시장 영향 시뮬레이션</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--pink)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--pink-d)">🏭</div>
+    <div class="spark-meta">
+      <div class="spark-title">중동발 원자재 쇼크: 알루미늄부터 2차전지까지, 한국 소재산업의 기회와 위기</div>
+      <span class="spark-type" style="background:var(--pink-d);color:var(--pink)">산업트렌드</span>
+    </div>
+  </div>
+  <div class="spark-body">중동 알루미늄 제련소 피격으로 촉발된 원자재 가격 급등이 한국 소재산업에 미치는 영향을 분석하고, ESS 수요 급증이 2차전지 업계에 주는 기회를 조명합니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--pink)"></div><span>중동 알루미늄 공장 피격에 치솟은 가격…남선알미늄 '上'</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--pink)"></div><span>이차전지 ETF, 증시 파란불 뚫고 반등…ESS 모멘텀 수혜</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>중동 알루미늄 공급 중단이 한국 자동차·조선업 원가에 미치는 영향 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>유가 상승으로 인한 ESS 시장 성장률과 국내 배터리 업체 수혜도 추정</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>원자재 가격 급등 시 한국 소재업체들의 재고 평가이익 규모 계산</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--green)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--green-d)">🤖</div>
+    <div class="spark-meta">
+      <div class="spark-title">AI 신약개발의 현실 점검: 김빛내리 교수가 말한 'RNA 치료제 자판기'는 언제 가능할까</div>
+      <span class="spark-type" style="background:var(--green-d);color:var(--green)">기술정책</span>
+    </div>
+  </div>
+  <div class="spark-body">AI와 바이오의 융합으로 주목받는 신약개발 분야의 현주소를 점검하고, 한국이 글로벌 AI 신약 경쟁에서 취할 수 있는 전략을 제시합니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--green)"></div><span>김빛내리 "바이오와 AI가 만나면…'RNA 치료제 자판기' 상상"</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--green)"></div><span>AI신약개발 현실격차…"정부·기업 역할구분해 극복해야"</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>글로벌 AI 신약개발 투자 동향과 한국 바이오 기업들의 포지셔닝 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>RNA 치료제 시장 규모 전망과 국내 관련 기업들의 기술경쟁력 평가</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>AI 신약 플랫폼별 성공률 비교와 한국 정부 R&D 투자 효율성 검토</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--orange)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--orange-d)">🏛️</div>
+    <div class="spark-meta">
+      <div class="spark-title">긴급재정명령 vs 경제계엄령: 대통령 경제 권한의 경계선은 어디까지인가</div>
+      <span class="spark-type" style="background:var(--orange-d);color:var(--orange)">딥다이브</span>
+    </div>
+  </div>
+  <div class="spark-body">이재명 대통령이 언급한 긴급재정명령의 헌법적 근거와 한계를 분석하고, 과거 유사 사례들과의 비교를 통해 적정 발동 기준을 제시합니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--orange)"></div><span>이 대통령 "에너지 수급 불안 과감히 대응···헌법이 정한 긴급재정명령도 활용"</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--orange)"></div><span>李 "긴급재정명령 검토" 韓 "초법적 경제계엄령"</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>긴급재정명령 발동 요건과 과거 사례(IMF 외환위기 등) 비교 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>국회 승인 없는 재정 지출의 헌법적 한계와 사법부 견제 가능성 검토</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>에너지 위기 대응을 위한 긴급재정명령 규모 추정과 국가 재정에 미치는 영향</span></div>
+  </div>
+</div>
+<div class="spark" style="border-left-color:var(--red)">
+  <div class="spark-header">
+    <div class="spark-icon" style="background:var(--red-d)">🌍</div>
+    <div class="spark-meta">
+      <div class="spark-title">트럼프의 호르무즈 전략: '아메리카 퍼스트'가 동맹국에게 던진 숙제</div>
+      <span class="spark-type" style="background:var(--red-d);color:var(--red)">글로벌트렌드</span>
+    </div>
+  </div>
+  <div class="spark-body">트럼프가 동맹국에게 호르무즈 해협 석유 확보를 직접 하라고 요구한 배경을 분석하고, 한국을 비롯한 동맹국들의 에너지 안보 전략 변화를 전망합니다.</div>
+  <div class="spark-sources"><div class="spark-src"><div class="spark-src-dot" style="background:var(--red)"></div><span>트럼프, 동맹국 향해 "호르무즈서 석유 직접 확보하라"</span></div>
+<div class="spark-src"><div class="spark-src-dot" style="background:var(--red)"></div><span>"트럼프, 측근들에 '호르무즈 봉쇄돼도 對이란 공격 끝낼 의향'"</span></div></div>
+  <div class="spark-angles">
+    <div class="spark-angles-title">접근 각도</div>
+    <div class="spark-angle"><span class="spark-angle-icon">📐</span><span>미국의 호르무즈 해협 개입 축소가 한·일 에너지 안보에 미치는 영향 분석</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>동맹국 자체 호르무즈 해협 방어 시 소요 비용과 군사적 부담 추정</span></div>
+<div class="spark-angle"><span class="spark-angle-icon">📐</span><span>트럼프 2기 행정부의 중동 정책 변화가 글로벌 유가에 미치는 장기 영향 시뮬레이션</span></div>
+  </div>
+</div>
 </div>
 
 <div class="footer">
   <div class="footer-logo">💡 아이디어 스파크</div>
   <p>
     뉴스 기반 리포트 주제 탐색<br>
-    48건 분석 · 클러스터 5개 · 아이디어 0개<br><br>
+    48건 분석 · 클러스터 5개 · 아이디어 6개<br><br>
     SHINHAN 미래전략연구소 · 매크로금융팀<br>
     Auto-generated · 2026.04.01
   </p>
